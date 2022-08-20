@@ -60,8 +60,26 @@ python main.py <full path> <num clusters>
 <a name="inputdata"></a>
 <h2>Вхідні дані</h2>
 
-Вхідними даними є `XML` файл, що містить інформаційні повідомлення у наступному вигляді: 
+Вхідними даними є `XML` файл, що має наступну структуру:
+```xml
+<sphinx:schema>
+<sphinx:field name="subject"/>
+<sphinx:field name="content"/>
+<sphinx:field name="source"/>
+<sphinx:field name="geo"/>
+<sphinx:field name="datatime"/>
+<sphinx:field name="lang"/>
+<sphinx:field name="keyword"/>
+<sphinx:field name="person"/>
+<sphinx:field name="event"/>
+<sphinx:field name="org"/>
+<sphinx:field name="firm"/>
+<sphinx:field name="em"/>
+<sphinx:attr name="url"/>
+</sphinx:schema>
+```
 
+Фрагмент вхідного файлу `XML`, що відповідає одному фнформаційному повідомленню:
 ```xml
 <sphinx:document id="388_ok">
 <subject>Заголовок</subject>
