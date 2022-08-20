@@ -53,7 +53,7 @@ git clone https://github.com/OlehDmytrenko/xml2digest.git
 ```
 2. Перейти в директорію склонованого репозиторія та запустити головний скрипт `main.py`, вказавши як параметр повний шлях `<full path>` до вхідного `XML` файлу з набором інформаційних повідомлень та кількість кластерів `<num clusters>`:
 ```sh
-cd /DWNT
+cd /xml2digest
 python main.py <full path> <num clusters>
 ```
 
