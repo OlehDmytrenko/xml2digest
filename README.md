@@ -75,7 +75,7 @@ python main.py <full path> <num clusters>
 <sphinx:field name="org"/>
 <sphinx:field name="firm"/>
 <sphinx:field name="em"/>
-<sphinx:attr name="url"/>
+<sphinx:field name="url"/>
 </sphinx:schema>
 ```
 
